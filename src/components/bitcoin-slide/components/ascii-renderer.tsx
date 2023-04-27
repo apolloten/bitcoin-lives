@@ -11,7 +11,7 @@ export function AsciiRenderer({
     characters = ' .:-+*=%@#',
     invert = false,
     color = true,
-    resolution = 0.15
+    resolution = 0.16
   }) {
     // Reactive state
     const { size, gl, scene, camera } = useThree()
