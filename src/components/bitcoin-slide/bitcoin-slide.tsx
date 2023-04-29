@@ -8,10 +8,10 @@ import { OrbitControls } from "@react-three/drei"
 import Typewriter from 'typewriter-effect';
 
 const textArray = [
-    `Bitcoin was launched on January 3, 2009. Bitcoin emerged as a response to the financial crisis during 2007-2008, with its decentralised nature and reliance on a peer-to-peer network. It aimed to create a new form of digital money that was not controlled by any single entity and provide more financial stability and freedom.`, 
-    `Bitcoin's initial block is referred to as the genesis block." It includes a headline from a British newspaper: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." The tax payer's money being repeatedly used to bail out banks that gambled and lost, is the underlying ideological motivation behind the creation of bitcoin.`, 
-    `Limited supply: There can only ever be 21 million Bitcoins in existence. This is in stark contrast to fiat currency which can be printed infinitely by central banks and governments.`, 
-    `Mysterious creator: The identity of Bitcoin's creator, Satoshi Nakamoto, remains unknown, despite various investigations and claims. This is probably an intentional decision knowing that central banks and governments would likely attempt to seize control of the network through the founder(s).`
+    `Bitcoin, a decentralized network designed for peer-to-peer cash transfers, made its debut on January 3, 2009.<br><br>Conceived as an answer to the financial crisis that rocked the world between 2007 and 2008, Bitcoin is designed with a finite limit, capping the total quantity of Bitcoin that can ever exist to 21 million.`,
+    `Bitcoin's initial block is referred to as the "genesis block."<br><br>It includes a headline from a British newspaper: <br><br>"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."<br><br>Citizen's tax money being repeatedly used to bail out banks that gambled and lost, is the underlying ideological motivation behind the creation of bitcoin.`, 
+    `There can only ever be 21 million Bitcoin in existence.<br><br>This is in stark contrast to fiat currency which can be printed infinitely by central banks and governments.`, 
+    `The identity of Bitcoin's creator, Satoshi Nakamoto, remains unknown, despite various investigations and claims.<br><br>This is probably an intentional decision knowing that governments would likely attempt to seize control of the network through the founder(s), if his/her/their identity were known.`
 ];
 
 const BitcoinSlide = () => {
