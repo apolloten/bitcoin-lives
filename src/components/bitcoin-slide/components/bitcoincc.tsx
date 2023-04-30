@@ -18,8 +18,8 @@ function ModelRender() {
         geometry={geom}
         ref={meshRef}
         rotation={[350,0,120]}
-        scale={[7,7,7]}
-        position={[0,-35,0]}
+        scale={[12,12,12]}
+        position={[0,-95,0]}
       >
         <meshPhongMaterial color="black" />
       </mesh>
