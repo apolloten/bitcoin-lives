@@ -40,7 +40,7 @@ const BitcoinSlide = () => {
         <div
             style={{height: "100%", width: "100%", display: "flex", alignItems: "center"}}    
         >
-            {/* text */}            
+            {/* text             
             <div            
                 style={{ flexGrow: 1 }}
             >
@@ -79,16 +79,16 @@ const BitcoinSlide = () => {
                     </div>
                 </div>                
             </div>
-            
+            */}
             {/* bitcoin icon */}       
             <div
             style={{ flexGrow: 1 }}
             >
                 <div
-                    style={{width: 600, height: 600 }}    
+                    style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}    
                 >            
                     <Canvas
-                        camera={{ position: [0, 0, 170], fov: 70 }}                                                 
+                        camera={{ position: [0, 0, 250], fov: 70 }}                                                 
                     >
                         <ModelRender />                
                         <pointLight intensity={10} rotation={[200,0,0]} position={[0, 150, 100]} />                                
