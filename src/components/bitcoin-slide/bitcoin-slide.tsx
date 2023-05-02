@@ -10,10 +10,10 @@ import Typewriter from 'typewriter-effect';
 const textArray = [
     `Bitcoin is a decentralised, digital, peer-to-peer financial network that launched on the 3rd of January, 2009.`,
     `Bitcoin relies on a "blockchain" to record all transactions on the bitcoin network.<br><br>These transactions are then organized into "blocks" of transfers, and then these blocks are linked together to form the blockchain itself.`,
-    `The first block on the blockchain is referred to as the "<i>genesis block</i>."<br><br>It includes a newspaper headline: <br><br>"<i>The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.</i>"<br><br>The ideological motivation behind bitcoin's creation is the unfairness inherent in regularly printing money to bail out banks, resulting in inflation that ends up hurting the average person.`, 
+    `The first block on the blockchain is referred to as the "<i>genesis block</i>."<br><br>It includes a newspaper headline: <br><br>"<i>The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.</i>"<br><br>The ideological motivation behind bitcoin's creation is the unfairness inherent in regularly printing money to fund bailouts, resulting in inflation that ends up hurting the average person.`, 
     `Every few years, one or more of our financial institutions incurs huge losses, and presents a no-win scenario to the government: <br><br>Print massive quantities of money to cover these losses<br><br>or<br><br>We go bankrupt and there's a risk of recession, or perhaps even a great depression level event.`,
-    `The government reliably chooses to print money to fund bailouts, resulting in worsening inflation, and increased likelihood of similar scenarios in the future.<br><br>Taxpayer funded bailouts happen with regularity, and there seems to be no end in sight.`,
-    `On October 31, 2008, Satoshi Nakamoto, an anonymous individual with extensive knowledge of cryptography, mathematics, and programming, published a concise 9-page paper titled "Bitcoin: A Peer-to-Peer Electronic Cash System."<br><br>The paper proposed a fair, secure, and transparent monetary system with a maximum cap of 21 million bitcoins.`,
+    `To avoid catastrophy, the government usually chooses to print money to fund bailouts, resulting in worsening inflation, and increased likelihood of similar scenarios in the future.<br><br>Taxpayer funded bailouts happen with regularity, and there seems to be no end in sight.`,
+    `On October 31, 2008, Satoshi Nakamoto, an anonymous account with extensive knowledge of cryptography, mathematics, and programming, published a concise 9-page paper titled "Bitcoin: A Peer-to-Peer Electronic Cash System."<br><br>The paper proposed a fair, secure, and transparent monetary system with a maximum cap of 21 million bitcoins.`,
     `In February 2009, Satoshi Nakamoto wrote:<br><br>“The root problem with conventional currency is all the trust that's required to make it work. <br><br>The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.<br><br>Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve.<br><br>We have to trust them with our privacy, trust them not to let identity thieves drain our accounts.”`,
     `Satoshi Nakamoto's Bitcoin empowers its users in several important ways.<br><br><u>Self-custody</u><br><br>During a bank run, depositors worry that their bank doesn't have enough money to cover all claims, so they queue at a bank teller or an ATM to attempt to retrieve their deposits.<br><br>With bitcoin, user assets are secure and instantly available 24 hours a day directly from a phone or hardware wallet.`,
     `<u>Peer-to-Peer Transactions</u><br><br>Bitcoin enables peer-to-peer transactions, allowing users to send and receive payments directly without requiring an intermediary.<br><br>This leads to faster transactions, lower fees, and the ability to transact globally.`,
@@ -53,7 +53,7 @@ const BitcoinSlide = () => {
                             fontSize: 30, 
                             paddingLeft: 20, 
                             paddingRight: 20, 
-                            width: 500, 
+                            width: 750, 
                             color: "white",
                             fontFamily: "'Silkscreen', cursive"
                         }}
